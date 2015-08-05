@@ -1,0 +1,71 @@
+# Learn Python the Hard Way
+# Exercise 22: What Do You Know So Far?
+
+print
+  Outputs to screen
+
+#
+  Used to create a comment
+
++ - * /
+  Arithmetical operators: addition, subtraction, multiplication and division
+
+%
+  Modulo operator, returns remainder. 5 % 2 returns 1
+
+=
+  Assignment, variable = value
+
+< <= > >=
+  Comparative operators: less-than, less-than or equals-to, more-than,
+                          more-than or equals-to
+
+%s %d %r
+  String formatter (deprecated for str.format)
+  %s for strings, %d for numbers, %r for raw output
+
++
+  Used for string concatenation
+
+,
+  Separates arguments with a space when used for string concatenation
+
+\ \n \t
+  Escape character, \\ is \, \n is new line, \t is tab
+
+"""
+  Docstring comment used to explain modules, classes, functions, etc.
+
+raw_input()
+  Used to get user input
+
+import
+  Keyword for importing modules
+
+from
+  Keyword to import function from module: from module_name import function
+
+sys
+  Module providing access to variables used or maintained by the interpreter
+    argv
+      From sys, used to interact with command-line arguments
+
+open()
+  Opens a file.
+    .read()
+      Reads an open file
+    .write()
+      Writes to an open file
+    .truncate()
+      Truncates to (at most) that size. The size defaults to current position.
+    .seek(line)
+      Moves to location in file
+    .close()
+      Closes an open file
+
+os
+  Module providing miscellaneous operating system interfaces
+  exist
+  .path provides common pathname manipulations
+    exists
+      From os.path, used to check for path/file existence
